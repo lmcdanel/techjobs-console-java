@@ -125,7 +125,7 @@ public class TechJobs {
 
             }
         } else{
-            System.out.println("No Results Found, Please Try A Different Search.");
+            System.out.println("No Results Found.");
         }
     }
 }
