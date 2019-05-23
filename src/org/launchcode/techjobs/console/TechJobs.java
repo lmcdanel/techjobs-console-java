@@ -120,6 +120,9 @@ public class TechJobs {
                     System.out.println(job.getKey() + ":" + "(" + job.getValue() + ")");
                 }
                 System.out.println("***********");
+                System.out.print( "\n\n\n" );
+                System.out.println("**********");
+
             }
         } else{
             System.out.println("No Results Found, Please Try A Different Search.");
