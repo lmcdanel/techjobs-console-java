@@ -59,7 +59,7 @@ public class TechJobs {
 
                 // What is their search term?
                 System.out.println("\nSearch term: ");
-                String searchTerm = in.nextLine();
+                String searchTerm = in.nextLine().toLowerCase();
 
                 if (searchField.equals("all")) {
                     printJobs(JobData.findByValue(searchTerm));
@@ -120,7 +120,7 @@ public class TechJobs {
                     System.out.println(job.getKey() + ":" + " " + job.getValue());
                 }
                 System.out.println("***********");
-                System.out.print( "\n\n\n" );
+                System.out.print( "\n" );
                 System.out.println("**********");
 
             }
